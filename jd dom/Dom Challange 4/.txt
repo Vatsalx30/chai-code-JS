@@ -1,0 +1,7 @@
+## Challenge 4: Task Management 🧏🏻‍♂️
+
+### Task Management
+
+- Allow users to add a new task by typing into an input field and clicking the "Add" button or pressing Enter.
+- Display each task in a list with a checkbox and a delete button.
+- Users should be able to remove tasks by clicking the "Delete" button.

@@ -1,0 +1,7 @@
+## Challenge 5: Image Carousel Application 🖼️
+
+### Image Display
+
+- Display a set of images in a carousel format.
+- Only one image should be visible at a time.
+- Each image should have a caption displayed at the bottom.

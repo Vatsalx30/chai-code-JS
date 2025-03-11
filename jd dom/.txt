@@ -1,0 +1,78 @@
+📌 Step 1: Plan the Features
+
+Decide what functionalities your to-do app should have. Some basic and advanced features:
+
+✅ Basic Features:
+	•	Add a new task
+	•	Display the task list
+	•	Mark a task as completed
+	•	Delete a task
+
+🚀 Advanced Features (Optional for later):
+	•	Edit tasks
+	•	Filter tasks (All, Completed, Pending)
+	•	Save tasks to localStorage (for persistence)
+	•	Set task deadlines with reminders
+
+⸻
+
+📋 Step 2: Structure with HTML
+
+Create a simple HTML layout:
+	1.	Input field – To type new tasks.
+	2.	Add button – To add tasks to the list.
+	3.	Task list – A section where tasks will be displayed.
+
+👉 Example layout:
+	•	Header: “My To-Do List”
+	•	Input: <input type="text"> for task entry
+	•	Button: “Add Task”
+	•	<ul>: For listing tasks dynamically
+
+⸻
+
+🎨 Step 3: Style with CSS
+
+Focus on clean UI:
+	1.	Design the task input and add button.
+	2.	Style tasks with checkboxes for completion.
+	3.	Use CSS classes to show completed tasks (e.g., strike-through text).
+	4.	Make it responsive (optional).
+
+⸻
+
+🧠 Step 4: Functional Logic with JavaScript
+
+Here’s how to think about the logic:
+	1.	Select Elements:
+	•	Get the input, button, and task list using document.querySelector().
+	2.	Add a Task:
+	•	Capture the input value when clicking “Add Task.”
+	•	Create a new <li> element with:
+	•	Task text
+	•	Checkbox (for completion)
+	•	Delete button
+	3.	Mark as Completed:
+	•	Toggle a CSS class (e.g., .completed) when the checkbox is clicked.
+	4.	Delete a Task:
+	•	Remove the parent <li> when clicking the delete button.
+
+⸻
+
+📂 Step 5: Enhance with Advanced Features (Optional)
+	1.	Save Tasks in localStorage:
+	•	Save the task list when adding, deleting, or marking tasks.
+	•	Load saved tasks on page reload.
+	2.	Edit Tasks:
+	•	Allow users to double-click and modify a task.
+	3.	Filter Tasks:
+	•	Add buttons to filter “All”, “Completed”, and “Pending.”
+
+⸻
+
+🧪 Step 6: Test & Iterate
+	1.	Test every feature after implementing.
+	2.	Debug errors using console.log() and DevTools.
+	3.	Improve UI and performance iteratively.
+
+Would you like help with a specific part, like handling tasks or saving to local storage?

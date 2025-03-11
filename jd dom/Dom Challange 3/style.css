@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main Container */
+#Form {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+/* Form and Preview Layout */
+#Fields, #preview {
+    flex: 1;
+}
+
+/* Heading */
+#heading h1, #preview h1 {
+    font-size: 2rem;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+#heading p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Labels */
+h4 {
+    margin: 15px 0 5px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff7e5f;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+/* Profile Preview */
+#preview-box {
+    background: #fdfdfd;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+#preview-box p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+/* Strong Text */
+strong {
+    color: #ff7e5f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #Form {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #heading h1, #preview h1 {
+        font-size: 1.8rem;
+    }
+
+    input, textarea {
+        font-size: 0.9rem;
+    }
+} 
+
+@media (max-width: 480px) {
+    #heading h1, #preview h1 {
+        font-size: 1.5rem;
+    }
+
+    input, textarea {
+        font-size: 0.8rem;
+    }
+} 
+
+/* Smooth Transition */
+* {
+    transition: all 0.3s ease;
+} 
+
+/* Hover Effect */
+input:hover, textarea:hover {
+    border-color: #ff6a88;
+} 
+
+#Form:hover {
+    transform: scale(1.02);
+} 
+
+/* Add a little animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#Form {
+    animation: fadeIn 0.8s ease-in-out;
+} 
